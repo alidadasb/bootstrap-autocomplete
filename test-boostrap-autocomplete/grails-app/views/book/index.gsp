@@ -4,14 +4,16 @@
 <html>
 
 	<head>
-
-
         <meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'book.label', default: 'Book')}" />
 		<title><g:message code="default.list.label" args="[entityName]" /></title>
 	</head>
 	<body>
-<input class="btn btn-danger" type="text"/>
+
+    <gxui:autoComplete domain="book" searchField="name" id="auto1"></gxui:autoComplete>
+
+
+    <input class="btn btn-danger" type="text"/>
     <input type="text" id="search_users" />
 
 		<a href="#list-book" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -60,11 +62,6 @@
 				<g:paginate total="${bookInstanceCount ?: 0}" />
 			</div>
 		</div>
-
-    <r:script>
-        alert("hi");
-        $( '#search_users').typeahead( { 'source': ['a','a','a','v'] } );
-    </r:script>
 
 	</body>
 

@@ -1,20 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d470f8b-db31-4aab-ba50-06dc96da0fb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/web-app/bootstrap/js/bootstrap.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/error.gsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/conf/ApplicationResources.groovy" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/conf/ApplicationResources.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/views/layouts/main.gsp" />
+    <list default="true" id="3d470f8b-db31-4aab-ba50-06dc96da0fb2" name="Default" comment="getting bootstrap to work&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/conf/AutoCompleteUrlMappings.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/bootstrapAutocomplete-inplacePlugin.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/dorisoft/plugin/autoComplete/MultiPurposeController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/services/com/dorisoft/plugin/autoComplete/DomainService.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/DomainService$_findDomainClass_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/DomainService$_listDomains_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/DomainService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/MultiPurposeController$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/MultiPurposeController$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/MultiPurposeController$_closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/MultiPurposeController.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService$_autoCompleteDomains_closure1.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService$_autoCompleteDomains_closure1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService$_autoCompleteDomains_closure2.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService$_autoCompleteDomains_closure2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService$_autoCompleteDomains_closure3.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService$_autoCompleteDomains_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/AggregatedResourceMeta.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/AggregatedResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/ApplicationResources.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/ApplicationResources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib$_closure1.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib$_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib$_closure2.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/BaseUrlResourceMapper.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/BaseUrlResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/com/dorisoft/autocomplete/Book.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/com/dorisoft/autocomplete/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/com/dorisoft/autocomplete/BookController.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/com/dorisoft/autocomplete/BookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/BoostrapAutocompleteGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/BoostrapAutocompleteGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/BootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/BundleResourceMapper.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/BundleResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSBundleResourceMeta.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSBundleResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSLinkProcessor.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSLinkProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSPreprocessorResourceMapper.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSPreprocessorResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSRewriterResourceMapper.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/CSSRewriterResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/CacheGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/CacheGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/Config.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/web/ContentCacheParameters.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/web/ContentCacheParameters.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/DataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DbdocUrlMappings.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DbdocUrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DefaultCacheConfig.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DefaultCacheConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/DefaultWebXmlConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/DevModeSanityFilter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/DevModeSanityFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/DispositionsUtils.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/DispositionsUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/DistributionManagementInfo.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/DistributionManagementInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/print/DryRunDeployer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/print/DryRunDeployer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/ErrorResponse.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/ErrorResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/portal/GrailsCentralDeployer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/portal/GrailsCentralDeployer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/HalfBakedLegacyLinkGenerator.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/HalfBakedLegacyLinkGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/HibernateGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/HibernateGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/hibernate3/HibernatePluginSupport.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/hibernate3/HibernatePluginSupport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryConfig.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryPluginResources.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryPluginResources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryService.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JQueryTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/JavaScriptBundleResourceMeta.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/JavaScriptBundleResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JqueryGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/JqueryGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/mapper/MapperPhase.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/mapper/MapperPhase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/svn/MasterPluginList.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/svn/MasterPluginList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/maven/MavenDeployer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/maven/MavenDeployer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleBuilder.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleDeclarationsFactory.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleDeclarationsFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/module/ModulesBuilder.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/module/ModulesBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/web/PageInfo.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/cache/web/PageInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ProcessingFilter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ProcessingFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/ReleaseGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/ReleaseGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/Repository.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/Repository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/RequestCustomizer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/RequestCustomizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMapper.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMappersFactory.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMappersFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceMeta.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/ResourceMetaStore.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/ResourceMetaStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceModule.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessor.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessorBatch.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessorBatch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceTagLib.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/ResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/ResourcesBootStrap.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/ResourcesBootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/ResourcesGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/ResourcesGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/RestBuilder.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/RestBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/RestClientBuilderGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/RestClientBuilderGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/RestResponse.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/rest/client/RestResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/StatsManager.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/util/StatsManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/svn/SvnDeployer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/grails/plugins/publish/svn/SvnDeployer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/TomcatGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/TomcatGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/URLUtils.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/org/grails/plugin/resource/URLUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/UrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsArgParsing_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsArgParsing_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsClasspath_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsClasspath_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsClean_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsClean_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsCompile_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsCompile_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsEvents_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsEvents_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsInit_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsInit_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsPackage_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsPackage_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsProxy_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsProxy_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsRun_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsRun_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsSettings_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsSettings_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsWar_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_GrailsWar_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_PackagePlugins_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_PackagePlugins_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_PluginDependencies_groovy.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/work/scriptCache/_PluginDependencies_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/devDb.h2.db" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/devDb.h2.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/resources.class" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/classes/resources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/dorisoft/plugin/autoComplete/AutoCompleteService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/dorisoft/plugin/autoComplete/AutoCompleteService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/taglib/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib.groovy" afterPath="$PROJECT_DIR$/grails-app/taglib/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/views/book/index.gsp" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/grails-app/views/book/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/.idea/modules.xml" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/stacktrace.log" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/test-boostrap-autocomplete-grailsPlugins.iml" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/test-boostrap-autocomplete-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/test-boostrap-autocomplete.iml" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/test-boostrap-autocomplete.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test-boostrap-autocomplete/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../test-boostrap-autocomplete/.idea/workspace.xml" />
     </list>
     <ignored path="boostrap-autocomplete.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,10 +233,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AutoCompleteTagLib.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AutoCompleteTagLib.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/taglib/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.16343826" vertical-offset="60" max-vertical-offset="1215">
+            <state line="33" column="32" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoCompleteUrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/AutoCompleteUrlMappings.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationTagLib.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gvm/grails/2.3.5/dist/grails-plugin-gsp-2.3.5-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ApplicationTagLib.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="356" column="12" selection-start="14568" selection-end="14568" vertical-scroll-proportion="0.0" vertical-offset="4704" max-vertical-offset="6480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoCompleteController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/dorisoft/plugin/autoComplete/AutoCompleteController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.30201343" vertical-offset="0" max-vertical-offset="596">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoCompleteService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/com/dorisoft/plugin/autoComplete/AutoCompleteService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -98,11 +288,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/dorisoft/plugin/autoComplete/MultiPurposeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/dorisoft/plugin/autoComplete/autoCompleteController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/dorisoft/plugin/autoComplete/DomainService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/AutoCompleteUrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/taglib/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/dorisoft/plugin/autoComplete/AutoCompleteService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/dorisoft/plugin/autoComplete/AutoCompleteController.groovy" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="662" />
-    <option name="y" value="85" />
-    <option name="width" value="1353" />
-    <option name="height" value="985" />
+    <option name="x" value="392" />
+    <option name="y" value="75" />
+    <option name="width" value="1494" />
+    <option name="height" value="1083" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -111,7 +314,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -177,12 +380,23 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesGroovy" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -193,17 +407,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -234,19 +438,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -270,6 +472,128 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -282,15 +606,15 @@
       <changelist id="3d470f8b-db31-4aab-ba50-06dc96da0fb2" name="Default" comment="" />
       <created>1391835434472</created>
       <updated>1391835434472</updated>
-      <workItem from="1391835441517" duration="4092000" />
+      <workItem from="1391835441517" duration="10851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4092000" />
+    <option name="totallyTimeSpent" value="10851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="662" y="85" width="1353" height="985" extended-state="1" />
+    <frame x="392" y="75" width="1494" height="1083" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -313,9 +637,10 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26086956" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20798898" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -339,9 +664,37 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gvm/grails/2.3.5/dist/grails-plugin-gsp-2.3.5-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ApplicationTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="356" column="12" selection-start="14568" selection-end="14568" vertical-scroll-proportion="0.0" vertical-offset="4704" max-vertical-offset="6480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/AutoCompleteUrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/taglib/com/dorisoft/plugin/autoComplete/AutoCompleteTagLib.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.16343826" vertical-offset="60" max-vertical-offset="1215">
+        <state line="33" column="32" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/dorisoft/plugin/autoComplete/AutoCompleteService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/dorisoft/plugin/autoComplete/AutoCompleteController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.30201343" vertical-offset="0" max-vertical-offset="596">
           <folding />
         </state>
       </provider>

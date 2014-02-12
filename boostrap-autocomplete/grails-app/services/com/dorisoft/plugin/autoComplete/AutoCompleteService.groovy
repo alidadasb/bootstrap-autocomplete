@@ -4,10 +4,11 @@ import grails.converters.*
 
 class AutoCompleteService {
 	static transactional = false
-	
-	def domainService
 
-	def autocompleteDomains (params) {
+	def domainService
+    def grailsApplication
+
+	def autoCompleteDomains (params) {
 
 		if (!params.domain) throw new Exception ("domain is required")
 		if (!params.searchField) throw new Exception ("searchField is required")
@@ -16,7 +17,8 @@ class AutoCompleteService {
 		if (!params.order) throw new Exception ("order is required")
 		if (!params.collectField) throw new Exception ("collectField is required")
 
-		def domainClass = domainService.findDomainClass(params.domain)
+        params.domain = params.domain[0].toUpperCase() + params.domain.substring(1)
+        def domainClass = findDomainClass(params.domain)
 		if (!domainClass) throw new Exception ("Cannot find the domain class for [$params.domain] ")
 
 		def results = domainClass?.createCriteria()?.list {
@@ -48,4 +50,8 @@ class AutoCompleteService {
 		results = results?.collect {	it."${params.collectField}" }?.unique()
 		return results  as JSON
 	}
+
+    Class findDomainClass(String className){
+        grailsApplication.domainClasses.find { it.clazz.simpleName == className }?.clazz
+    }
 }
